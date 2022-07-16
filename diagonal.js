@@ -15,7 +15,8 @@ const dimensional = (arr) => {
       if (i === j) {
         d1 += arr[i][j];
       }
-      console.log(d1);
+      
+      // console.log(d1);
 
       //right top to bottom left diagonal sum
       if (i + j == n - 1) {

@@ -27,10 +27,9 @@ algorithm
 */
 
 const stairCase = (n) => {
+  for (let i = 1; i <= n; i++) {
+    console.log('#'.repeat(i).padStart(n));
+  }
+};
 
-for (let i = 1; i <= n; i++) {
-    console.log("#".repeat(i).padStart(n))
-}
-}
-
-console.log(stairCase(6))
+console.log(stairCase(6));
