@@ -18,3 +18,7 @@ const changeTimeFormat = (s) => {
 };
 
 console.log(changeTimeFormat(time));
+
+
+const test = "testing"
+console.log(test.length)
